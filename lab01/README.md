@@ -24,6 +24,7 @@ Considerando o simples conjunto de dados do histórico de compras como um todo, 
 Podemos ver neste gráfico que além dos aplicativos sem especificação de faixa etária, o público jovem (teen) corresponde a uma grande parcela das instações de aplicativos na Google Play Store.
 
 ## Projeto de Composição de Componentes para Recomendação
+[![Imagem do Projeto de Composição de Componentes para Recomendação](images/recomendacao1.PNG)](images/recomendacao1.PNG)
 
 ## Projeto de Composição de Componentes para Pedido
 
