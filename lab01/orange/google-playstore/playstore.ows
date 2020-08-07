@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="CSV File Import" position="(102.0, 212.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="Google Playstore CSV" version="" />
+		<node id="1" name="Feature Constructor" position="(351.0, 112.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfeatureconstructor.OWFeatureConstructor" title="Adjust rates &gt; 5" version="" />
+		<node id="2" name="Data Table" position="(525.0, 142.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Adjusted Table" version="" />
+		<node id="3" name="Select Columns" position="(260.0, 370.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Alvo Instalações" version="" />
+		<node id="4" name="Distributions" position="(481.0, 442.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" title="Distribuições" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="3" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'_session_items': [('C:/Users/GUSTAVOBARRETONAKAHA/Google Drive/UNICAMP/INF331 - Componentização e Reuso de Software - Conceitos e Práticas/inf331-componentizacao/lab01/orange/google-playstore/Google-Playstore-32K.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/GUSTAVOBARRETONAKAHA/Google Drive/UNICAMP/INF331 - Componentização e Reuso de Software - Conceitos e Práticas/inf331-componentizacao/lab01/orange/foodmart/foodmart2000-association.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 102, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/GUSTAVOBARRETONAKAHA/Google Drive/UNICAMP/INF331 - Componentização e Reuso de Software - Conceitos e Práticas/inf331-componentizacao/lab01/orange/google-playstore', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\r1\x00\x00\x01L\x00\x00\x0eN\x00\x00\x02\xa6\x00\x00\r2\x00\x00\x01k\x00\x00\x0eM\x00\x00\x02\xa5\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\r2\x00\x00\x01k\x00\x00\x0eM\x00\x00\x02\xa5', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+AkNCAdnQywADAAAAAAH2AAABPAAABHgAAAJsAAAB9gAAATwAAAR4AAACbAAAAAAAAAAACgAAAAH2
+AAABPAAABHgAAAJscQNYCwAAAF9fdmVyc2lvbl9fcQRLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EF
+XXEGY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0CnEHKYFxCH1xCShYBgAAAHZhbHVlc3EK
+fXELKFgMAAAAY3VycmVudEluZGV4cQxLAEr+////hnENWAsAAABkZXNjcmlwdG9yc3EOXXEPY09y
+YW5nZS53aWRnZXRzLmRhdGEub3dmZWF0dXJlY29uc3RydWN0b3IKQ29udGludW91c0Rlc2NyaXB0
+b3IKcRBYDAAAAFJhdGluZ19DbGVhbnERWBoAAAAwIGlmIFJhdGluZyA+NSBlbHNlIFJhdGluZ3ES
+TodxE4FxFGFoBEsBdVgKAAAAYXR0cmlidXRlc3EVfXEWKFgIAAAAQ2F0ZWdvcnlxF0sBWAYAAABS
+YXRpbmdxGEsCWAcAAABSZXZpZXdzcRlLAlgIAAAASW5zdGFsbHNxGksBWAUAAABQcmljZXEbSwJY
+DgAAAENvbnRlbnQgUmF0aW5ncRxLAVgMAAAATGFzdCBVcGRhdGVkcR1LBHVYBQAAAG1ldGFzcR59
+cR8oWAgAAABBcHAgTmFtZXEgSwNYBAAAAFNpemVxIUsDdXViYXUu
+</properties>
+		<properties format="literal" node_id="2">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xc4\x00\x00\x00\xf2\x00\x00\x07`\x00\x00\x035\x00\x00\x01\xc4\x00\x00\x00\xf2\x00\x00\x07`\x00\x00\x035\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x01\xc4\x00\x00\x00\xf2\x00\x00\x07`\x00\x00\x035', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWBMAAABz
+YXZlZFdpZGdldEdlb21ldHJ5cQNDQgHZ0MsAAwAAAAADwQAAATcAAAZAAAADFgAAA8EAAAE3AAAG
+QAAAAxYAAAAAAAAAAAoAAAADwQAAATcAAAZAAAADFnEEWBIAAAB1c2VfaW5wdXRfZmVhdHVyZXNx
+BYlYCwAAAF9fdmVyc2lvbl9fcQZLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EHXXEIY29yYW5nZXdp
+ZGdldC5zZXR0aW5ncwpDb250ZXh0CnEJKYFxCn1xCyhYBgAAAHZhbHVlc3EMfXENKFgRAAAAZG9t
+YWluX3JvbGVfaGludHNxDn1xDyhYBQAAAFByaWNlcRBLAoZxEVgJAAAAYXZhaWxhYmxlcRJLAIZx
+E1gMAAAATGFzdCBVcGRhdGVkcRRLBIZxFWgSSwGGcRZYCAAAAENhdGVnb3J5cRdLAYZxGFgJAAAA
+YXR0cmlidXRlcRlLAIZxGlgOAAAAQ29udGVudCBSYXRpbmdxG0sBhnEcaBlLAYZxHVgGAAAAUmF0
+aW5ncR5LAoZxH2gZSwKGcSBYBwAAAFJldmlld3NxIUsChnEiaBlLA4ZxI1gIAAAASW5zdGFsbHNx
+JEsBhnElWAUAAABjbGFzc3EmSwCGcSdYCAAAAEFwcCBOYW1lcShLA4ZxKVgEAAAAbWV0YXEqSwCG
+cStYBAAAAFNpemVxLEsDhnEtaCpLAYZxLnVK/v///4ZxL2gGSwF1WAoAAABhdHRyaWJ1dGVzcTB9
+cTEoaBdLAWgeSwJoIUsCaCRLAWgQSwJoG0sBaBRLBHVYBQAAAG1ldGFzcTJ9cTMoaChLA2gsSwN1
+dWJhdS4=
+</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWAoAAABhdXRvX2FwcGx5cQGIWBIAAABjb250cm9sQXJlYVZpc2libGVxAohYEAAAAGN1
+bXVsYXRpdmVfZGlzdHJxA4lYEwAAAGZpdHRlZF9kaXN0cmlidXRpb25xBEsAWAkAAABoaWRlX2Jh
+cnNxBYlYDQAAAGtkZV9zbW9vdGhpbmdxBksKWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDQgHZ
+0MsAAwAAAAABAwAAAKMAAATDAAADGwAAAQQAAADCAAAEwgAAAxoAAAAAAAAAAAoAAAABBAAAAMIA
+AATCAAADGnEIWAoAAABzaG93X3Byb2JzcQmJWA8AAABzdGFja2VkX2NvbHVtbnNxColYCwAAAF9f
+dmVyc2lvbl9fcQtLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EMXXENKGNvcmFuZ2V3aWRnZXQuc2V0
+dGluZ3MKQ29udGV4dApxDimBcQ99cRAoWAYAAAB2YWx1ZXNxEX1xEihYBAAAAGN2YXJxE1gIAAAA
+SW5zdGFsbHNxFEtlhnEVWA4AAABudW1iZXJfb2ZfYmluc3EWSwBK/v///4ZxF1gJAAAAc2VsZWN0
+aW9ucRhjYnVpbHRpbnMKc2V0CnEZXXEahXEbUnEcSv7///+GcR1YAwAAAHZhcnEeWA4AAABDb250
+ZW50IFJhdGluZ3EfS2WGcSBoC0sBdVgKAAAAYXR0cmlidXRlc3EhfXEiKFgIAAAAQ2F0ZWdvcnlx
+I0sBaB9LAVgGAAAAUmF0aW5ncSRLAlgHAAAAUmV2aWV3c3ElSwJoFEsBdVgFAAAAbWV0YXNxJn1x
+JyhYCAAAAEFwcCBOYW1lcShLA1gEAAAAU2l6ZXEpSwN1dWJoDimBcSp9cSsoaBF9cSwoaBNoFEtl
+hnEtaBZLAEr+////hnEuaBhoGV1xL4VxMFJxMUr+////hnEyaB5oFEtlhnEzaAtLAXVoIX1xNCho
+I0sBaB9LAWgkSwJoFEsBdWgmfXE1KGgoSwNoKUsDdXViaA4pgXE2fXE3KGgRfXE4KGgTaBRLZYZx
+OWgWSwBK/v///4ZxOmgYaBldcTuFcTxScT1K/v///4ZxPmgeaB9LZYZxP2gLSwF1aCF9cUAoaCNL
+AWgfSwFYDAAAAExhc3QgVXBkYXRlZHFBSwRoJEsCaBRLAXVoJn1xQihoKEsDaClLA3V1YmgOKYFx
+Q31xRChoEX1xRShoE2gUS2WGcUZoFksASv7///+GcUdoGGgZXXFIhXFJUnFKSv7///+GcUtoHmgf
+S2WGcUxoC0sBdWghfXFNKGgjSwFYBQAAAFByaWNlcU5LAmgfSwFoQUsEaCRLAmgUSwF1aCZ9cU8o
+aChLA2gpSwN1dWJoDimBcVB9cVEoaBF9cVIoaBNoFEtlhnFTaBZLAEr+////hnFUaBhoGV1xVYVx
+VlJxV0r+////hnFYaB5oH0tlhnFZaAtLAXVoIX1xWihoI0sBaCVLAmhOSwJoH0sBaEFLBGgkSwJo
+FEsBdWgmfXFbKGgoSwNoKUsDdXViZXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
