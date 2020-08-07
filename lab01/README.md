@@ -5,7 +5,7 @@ Analisando um determinado volume de compras dos clientes, em algum momento poder
 Considerando o simples conjunto de dados do histórico de compras como um todo, podemos mapear um fluxo de sugestão de novos produtos a partir das informações salvas. E, ao passo que novas informações chave forem sendo obtidas como idade, classe social, sexo, estado civíl e outras. Podemos chegar ao nível de sugerir os produtos com maior probabilidade de compra para aquele determinado cliente
 
 ## Imagem do Projeto
-[!images/foodmart1.png](images/foodmart1.png)
+[![Imagem do projeto orange Foodmart](images/foodmart1.PNG)](images/foodmart1.PNG)
 
 ## Arquivo do Projeto
 [Link do arquivo](orange/foodmart.ows)
