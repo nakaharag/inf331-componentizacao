@@ -32,3 +32,4 @@ Podemos ver neste gráfico que além dos aplicativos sem especificação de faix
 [![Imagem do Projeto de Composição de Componentes para Pedido](images/pedido1.png)](images/pedido1.png)
 
 ### Diagrama de Interfaces
+[![Imagem do Diagrama de Interfaces para Pedido](images/pedido2.png)](images/pedido2.png)
