@@ -15,7 +15,8 @@
 <dcc-trigger label="Brasil E" action="noticia/brasil/esporte" value="Brasil E">
 </dcc-trigger>
 
-<dcc-trigger label="Bahia" action="noticia/brasil/bahia/esporte" value="Bahia E"></dcc-trigger>
+<dcc-trigger label="Bahia" action="noticia/brasil/bahia/esporte" value="Bahia E">
+</dcc-trigger>
 
 <dcc-lively-talk id="doctor"
                  duration="0s"
