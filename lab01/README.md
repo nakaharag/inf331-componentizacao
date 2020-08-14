@@ -1,3 +1,5 @@
+# Lab 01
+
 ## Projeto Orange / Regras de Associação para Foodmart
 **Reflexão: Como estes dados poderiam ser explorados para recomendar produtos para clientes?**
 Analisando um determinado volume de compras dos clientes, em algum momento poderemos perceber determinados perfis de compras se considerando a simples análise combinatória de que ao comprar A e B, este cliente possivelmente comprará C.
