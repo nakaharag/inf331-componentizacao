@@ -8,3 +8,5 @@ Este é o repositório referente a disciplina *INF 331 - Componentização e Reu
 **E-mail estudante**: ex145075@g.unicamp.br
 
 **E-mail principal**: gustavo.nakahara@gmail.com
+
+**Professor**: [André Santanchè](https://www.ic.unicamp.br/~santanch/)

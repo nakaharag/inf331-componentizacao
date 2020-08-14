@@ -6,25 +6,31 @@
 
 ## Tarefa Web Components 1
 ```
-<dcc-trigger label="Mundo" action="noticia/mundo/politica" value="Mundo P"></dcc-trigger>
+<dcc-trigger label="Mundo" action="noticia/mundo/politica" value="Mundo P">
+</dcc-trigger>
 
-<dcc-trigger label="Brasil P" action="noticia/brasil/politica" value="Brasil P"></dcc-trigger>
+<dcc-trigger label="Brasil P" action="noticia/brasil/politica" value="Brasil P">
+</dcc-trigger>
 
-<dcc-trigger label="Brasil E" action="noticia/brasil/esporte" value="Brasil E"></dcc-trigger>
+<dcc-trigger label="Brasil E" action="noticia/brasil/esporte" value="Brasil E">
+</dcc-trigger>
 
 <dcc-trigger label="Bahia" action="noticia/brasil/bahia/esporte" value="Bahia E"></dcc-trigger>
+
 <dcc-lively-talk id="doctor"
                  duration="0s"
                  character="doctor"
                  speech="Noticia: ">
   <subscribe-dcc topic="noticia/#/politica"></subscribe-dcc>
 </dcc-lively-talk>
+
 <dcc-lively-talk id="nurse"
                  duration="0s"
                  character="nurse"
                  speech="Noticia: ">
   <subscribe-dcc topic="noticia/brasil/#"></subscribe-dcc>
 </dcc-lively-talk>
+
 <dcc-lively-talk id="patient"
                  duration="0s"
                  character="patient"
