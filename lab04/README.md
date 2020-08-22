@@ -20,13 +20,16 @@
 
 ### Serviço 1
 
-Título do serviço: <título>
-Breve descrição:
+**Título do serviço**: Climacell API
+**Referência:** https://developer.climacell.co/v3/reference#get-realtime
+**Breve descrição:**
 > API REST do serviço Climacell para consultar dados climáticos.
 
-URL completa da requisição: https://api.climacell.co/v3/weather/realtime?lat=-22.8175&lon=-47.069722&unit_system=si&fields=temp%2Cweather_code&apikey=ilnW7hJtAX7sPjxQHFaIA4mZoJJtEuQi
+**URL completa da requisição:** 
+https://api.climacell.co/v3/weather/realtime?lat=-22.8175&lon=-47.069722&unit_system=si&fields=temp%2Cweather_code&apikey=ilnW7hJtAX7sPjxQHFaIA4mZoJJtEuQi
+
 - Cabeçalho HTTP da chamada:
-~~~json
+~~~http
 GET https://api.climacell.co/v3/weather/realtime?lat=-22,8175&lon=-22,8175&unit_system=si&fields=temp&apikey=ilnW7hJtAX7sPjxQHFaIA4mZoJJtEuQi
 Cache-Control: no-cache
 Postman-Token: <calculated when request is sent>
@@ -39,7 +42,7 @@ Content-Type: application/json
 ~~~
 
 - Cabeçalho HTTP da resposta:
-~~~html
+~~~http
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
