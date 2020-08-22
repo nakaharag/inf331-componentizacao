@@ -76,3 +76,89 @@ Content-Encoding: gzip
 
 ### Serviço 2
 
+**Título do serviço**: OMDb API
+**Referência:** http://www.omdbapi.com/
+**Breve descrição:**
+> API do site OMDb (Open Movie Database) para recuperar informações de filmes, séries ou episódios do catálogo do site.
+
+**URL completa da requisição:** 
+http://www.omdbapi.com/?apikey=c495ada3&s=Matrix&r=json&type=movie&y=1999
+
+- Cabeçalho HTTP da chamada:
+~~~http
+GET http://www.omdbapi.com/?apikey=c495ada3&s=Matrix&r=json&type=movie&y=1999
+Cookie: __cfduid=d0dfc9454cf4079ef107162d9f3c7f88d1598137770
+Cache-Control: no-cache
+Postman-Token: <calculated when request is sent>
+Host: <calculated when request is sent>
+User-Agent: PostmanRuntime/7.26.1
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+~~~
+
+- Cabeçalho HTTP da resposta:
+~~~http
+Access-Control-Allow-Origin: *
+Age: 243
+Cache-Control: public, max-age=86400
+CF-Cache-Status: HIT
+CF-RAY: 5c704c635c53f75c-GRU
+cf-request-id: 04ba0e121b0000f75cc18e6200000001
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Date: Sat, 22 Aug 2020 23:15:53 GMT
+Expires: Sun, 23 Aug 2020 00:12:27 GMT
+Last-Modified: Sat, 22 Aug 2020 23:12:27 GMT
+Server: cloudflare
+Transfer-Encoding: chunked
+Vary: *, Accept-Encoding
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+~~~
+
+- Conteúdo da resposta:
+~~~json
+{
+    "Search": [
+        {
+            "Title": "The Matrix",
+            "Year": "1999",
+            "imdbID": "tt0133093",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Making 'The Matrix'",
+            "Year": "1999",
+            "imdbID": "tt0365467",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "V-World Matrix",
+            "Year": "1999",
+            "imdbID": "tt0211096",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDI4ZGU1OWYtYTNjMy00YWQ4LTg3M2YtNmUxMDhiZjFhZTYwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjc4MjYzOA@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "The Matrix: The Movie Special",
+            "Year": "1999",
+            "imdbID": "tt0438231",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "The Matrix: Follow the White Rabbit",
+            "Year": "1999",
+            "imdbID": "tt5319308",
+            "Type": "movie",
+            "Poster": "N/A"
+        }
+    ],
+    "totalResults": "5",
+    "Response": "True"
+}
+~~~
