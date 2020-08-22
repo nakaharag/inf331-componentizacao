@@ -20,9 +20,9 @@
 
 ### Serviço 1
 
-**Título do serviço**: Climacell API
-**Referência:** https://developer.climacell.co/v3/reference#get-realtime
-**Breve descrição:**
+- **Título do serviço**: Climacell API
+- **Referência:** https://developer.climacell.co/v3/reference#get-realtime
+- **Breve descrição:**
 > API REST do serviço Climacell para consultar dados climáticos.
 
 **URL completa da requisição:** 
@@ -76,9 +76,9 @@ Content-Encoding: gzip
 
 ### Serviço 2
 
-**Título do serviço**: OMDb API
-**Referência:** http://www.omdbapi.com/
-**Breve descrição:**
+- **Título do serviço**: OMDb API
+- **Referência:** http://www.omdbapi.com/
+- **Breve descrição:**
 > API do site OMDb (Open Movie Database) para recuperar informações de filmes, séries ou episódios do catálogo do site.
 
 **URL completa da requisição:** 
