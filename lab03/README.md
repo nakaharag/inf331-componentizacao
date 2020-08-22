@@ -13,7 +13,7 @@
 [Link do aplicativo](app/app.aia)
 
 ### tela 1 - nenhum produto selecionado
-[![Imagem do diagrama de blocosdo aplicativo](images/images/tarefa03-1_small.jpg)](tarefa03-1.jpeg)
+[![Imagem de nenhum produto selecionado](images/tarefa03-1_small.jpg)](images/tarefa03-1.jpeg)
 
 ### tela 2 - primeiro produto selecionado
 [![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-2_small.jpg)](images/tarefa03-2.jpeg)
@@ -22,6 +22,10 @@
 [![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-3_small.jpg)](images/tarefa03-3.jpeg)
 
 ### tela 4 - compra de um dos produtos efetiva
+[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-4_small.jpg)](images/tarefa03-4.jpeg)
 
 ### tela 5 - diagrama de blocos do aplicativo
 [![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-5.PNG)](images/tarefa03-5.PNG)
+
+## Tarefa 4 - Orquestração e Coreografia
+[Link da organização da equipe 04](https://github.com/INF331-equipe4/Labs/tree/master/lab03)
