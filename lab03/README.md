@@ -13,13 +13,13 @@
 [Link do aplicativo](app/app.aia)
 
 ### tela 1 - nenhum produto selecionado
-[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-1.jpeg)](images/tarefa03-1_small)
+[![Imagem do diagrama de blocosdo aplicativo](images/images/tarefa03-1_small.jpeg)](tarefa03-1.jpeg)
 
 ### tela 2 - primeiro produto selecionado
-[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-2.jpeg)](images/tarefa03-2_small)
+[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-2_small.jpeg)](images/tarefa03-2.jpeg)
 
 ### tela 3 - segundo produto selecionado
-[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-3.jpeg)](images/tarefa03-3_small)
+[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-3_small.jpeg)](images/tarefa03-3.jpeg)
 
 ### tela 4 - compra de um dos produtos efetiva
 
