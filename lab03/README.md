@@ -10,14 +10,16 @@
 
 ## Tarefa 3 - Aplicativo
 
-[Link do aplicativo](app/foodmart/app.aia)
+[Link do aplicativo](app/app.aia)
 
 ### tela 1 - nenhum produto selecionado
 [![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-1.PNG)](images/tarefa03-1.PNG)
 
 ### tela 2 - primeiro produto selecionado
+[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-2.jpeg)](images/tarefa03-2.jpeg)
 
 ### tela 3 - segundo produto selecionado
+[![Imagem do diagrama de blocosdo aplicativo](images/tarefa03-3.jpeg)](images/tarefa03-3.jpeg)
 
 ### tela 4 - compra de um dos produtos efetiva
 
