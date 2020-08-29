@@ -2,7 +2,7 @@
 
 ## Tarefa sobre catálogo de componentes
 
-[Link para o notebook](notebook/multiplas-interfaces.ipynb)
+[Link para o notebook](notebook/notebook-GustavoNakahara.ipynb)
 
 ## Tarefa Web Components 1
 ```
