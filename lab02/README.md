@@ -3,6 +3,7 @@
 ## Tarefa sobre catálogo de componentes
 
 [Link para o notebook](notebook/notebook-GustavoNakahara.ipynb)
+OBS: Tarefa entregue com atraso.
 
 ## Tarefa Web Components 1
 ```
